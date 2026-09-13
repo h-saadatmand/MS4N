@@ -14,13 +14,13 @@ This repository contains the implementation of **MS4N**, lightweight
 state space models for both univariate and multivariate time series classification.
 
 The models are based on the diagonal state space model **S4D** and introduce
-simple architectural modifications for effective and efficient time-series
+simple and lightweight architectural modifications for effective and efficient time-series
 classification.
 
 **MS4N** extends S4D with:
 
-- a linear input projection, and
-- a gated channel-mixing mechanism.
+- a linear input projection
+- a channel-mixing mechanism
 - a layer normalization to improve training stability.
 
 The paper provides a systematic evaluation of diagonal SSMs and Mamba-based
