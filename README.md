@@ -26,7 +26,7 @@ classification.
 The paper provides a systematic evaluation of diagonal SSMs and Mamba-based
 models for time-series classification across large-scale benchmark datasets.
 
-MS4N is designed to be **simple, tiny, and efficient**, while remaining highly effective:
+MS4N is designed to be **simple, tiny, and efficient**, while remaining highly **effective**:
 
 - No dependency on specialized libraries (e.g., no custom CUDA kernels, no
   Mamba-specific packages) — built entirely with standard PyTorch operations.
@@ -62,6 +62,7 @@ MS4N/
 │
 ├── models/
 │   └── MS4N.py
+|   └── RNN_Class.py  # RNN, GRU, LSTM
 │
 ├── utils/
 │   ├── __init__.py
